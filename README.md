@@ -1,6 +1,6 @@
 # fabriscorol.github.io
 
-My personnel blog
+My personnal blog
 
 See in live [fabriscorol](http://fabriscorol.github.io)
 
