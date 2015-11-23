@@ -1,0 +1,50 @@
+# # # # # # # #
+#   K i k o   #
+# # # # # # # #
+
+# Basic
+name:               "fabriscorol"
+
+# URL
+baseurl:            ""
+#baseurl:            "" #For Root Domain
+permalink:          /:year/:month/:day/:title.html
+
+# Markdown
+markdown:           rdiscount
+
+# Navigation
+nav:
+  - name:           "A propos"
+    href:           "/about/"
+  - name:           "Projets"
+    href:           "/projects/"
+  - name:           "Blog"
+    href:           "/blog/"
+
+# Sass
+sass:
+  style:            :compressed
+
+# Scopes
+defaults:
+  -
+    scope:
+      path:         ""
+      type:         "pages"
+    values:
+      layout:       "page"
+  -
+    scope:
+      path:         ""
+      type:         "posts"
+    values:
+      layout:       "post"
+
+
+# Pagination number posts per page
+gems:               [jekyll-paginate]
+paginate:           5
+
+# Read more separator
+excerpt_separator:  <!--more-->

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}</title>
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,600">
+  <link rel="stylesheet" href="{{ site.baseurl }}/style.css">
+  </head>
+<body>
+  <div class="container">
+    <header class="masthead">        
+      <h1 class="masthead-title">
+        <a href="{{ site.baseurl }}/">{{ site.name }}<span>&#39;s blog</span></a>
+      </h1>
+      <nav class="masthead-nav">
+        &bull;
+        {% for nav in site.nav %}
+        <a {% if page.url == nav.href %} class="active" {% endif %} href="{{ nav.href }}">{{ nav.name }}</a> &bull;
+        {% endfor %}
+      </nav>
+    </header>
+
+    {{ content }}
+  </div>
+  <footer class="container">
+    <p>
+    	<small>
+    		&copy; 2015 Fabriscorol &mdash;
+    		Made with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> &mdash; Theme by <a href="https://github.com/gfjaru/Kiko" target="_blank">Kiko</a>
+    	</small>
+    </p>
+  </footer>
+</body>
+</html>
