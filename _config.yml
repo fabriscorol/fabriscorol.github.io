@@ -20,7 +20,7 @@ nav:
   - name:           "Projets"
     href:           "/projects"
   - name:           "Blog"
-    href:           "/blog"
+    href:           "/blog" 
 
 # Sass
 sass:
