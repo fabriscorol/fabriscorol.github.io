@@ -11,8 +11,8 @@ Made with [Jekyll](http://jekyllrb.com/) &mdash; Theme by [Kiko](http://github.c
 The following directories and their contents are Copyright Corey Donohoe. 
 You may not reuse anything therein without my permission:
 
-*_drafts
-*_posts
-*images
+* _drafts
+* _posts
+* images
 
 Released under MIT License.
