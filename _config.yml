@@ -18,9 +18,9 @@ nav:
   - name:           "A propos"
     href:           "/about/"
   - name:           "Projets"
-    href:           "/projects/"
+    href:           "/projects"
   - name:           "Blog"
-    href:           "/blog/"
+    href:           "/blog"
 
 # Sass
 sass:
