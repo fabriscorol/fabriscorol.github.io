@@ -46,5 +46,12 @@ defaults:
 gems:               [jekyll-paginate]
 paginate:           5
 
+# Google Analytics tracking ID
+analytics :
+  provider : google 
+  google : 
+      tracking_id : 'UA-44315650-1'
+
+
 # Read more separator
 excerpt_separator:  <!--more-->
